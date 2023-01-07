@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Maach Odoo Dynamic Export",
+    'name': "Odoo Export Advanced",
 
     'summary': """
         Maach Odoo Dynamic Export""",
