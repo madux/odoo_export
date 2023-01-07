@@ -76,7 +76,7 @@ class MaOdooExport(models.Model):
                 wb = xlwt.Workbook()
                 ws = wb.add_sheet(self.name)
                 colh = 0
-                # ws.write(0, 6, 'RECORDS GENERATED: %s - On %s' %(self.name, datetime.strftime(fields.Date.today(), '%Y-%m-%d')), style0)
+                # ws.write(0, 6,'RECORDS GENERATED: %s - On %s' %(self.name, datetime.strftime(fields.Date.today(), '%Y-%m-%d')), style0)
                 for head in headers:
                     ws.write(0, colh, head)
                     colh += 1
