@@ -23,6 +23,9 @@
         'security/ir.model.access.csv',
         'views/odoo_export_views.xml',
     ],
+    "images": ['images/exporter.jpg'],
+    "price": 60,
+    "currency": 'EUR',
     'demo': [
         # 'demo/demo.xml',
     ],
